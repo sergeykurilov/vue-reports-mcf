@@ -22,7 +22,5 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.vue-logo{
-  height:100px;
-}
+
 </style>

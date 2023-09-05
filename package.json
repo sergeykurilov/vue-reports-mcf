@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve --port 3003",
+    "postinstall": "npm run build",
+    "start": "node server.js",
+    "dev": "vue-cli-service serve --port 3003",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "express": "^4.18.2",
+    "serve-static": "^1.15.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

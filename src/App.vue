@@ -1,6 +1,7 @@
 <template>
   <div class="right-sidebar">
-    Right sidebar Application Vue
+    Right sidebar Application in
+    <img src="./assets/logo.png" class="vue-logo">
   </div>
 </template>
 
@@ -22,5 +23,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
+.vue-logo{
+  height:100px;
+}
 </style>
